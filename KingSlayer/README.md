@@ -26,11 +26,10 @@ A fast-paced action game where both the player and enemies die in a single hit. 
 - OOP + SOLID
 
 ## 🎥 Preview
-
-![Image](https://github.com/user-attachments/assets/273b3b7e-273b-464d-acdf-9839ba82ee98)
+###  Movement
+![Image](https://github.com/user-attachments/assets/5fa51cfb-eca9-4e70-8672-3454dc604813)
 
 ## 📂 Status
-
 🔒 Internal prototype – not publicly released.  
 🚧 Code for selected systems (e.g. AI, input, skills) available here.
 
