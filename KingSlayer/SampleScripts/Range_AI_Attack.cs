@@ -5,14 +5,6 @@
 /// </summary>
 void AttackPlayer()
 {
-    // Rotate AI to face the player
-    aiTransform.LookAt(playerTransform);
-
-    // Calculate distance between AI and player
-    float distance = Vector3.Distance(aiTransform.position, playerTransform.position);
-
-    var aiType = controller.AiType;
-
     // Melee AI attack logic
     if (aiType == AiType.Non_Range_Idle || aiType == AiType.Non_Range_Patrol)
     {
