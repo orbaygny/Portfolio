@@ -27,12 +27,11 @@ A fast-paced action game where both the player and enemies die in a single hit. 
 
 ## 🎥 Preview
 
-*Video demo coming soon*  
-(ya da varsa bir YouTube linki buraya)
+![Image](https://github.com/user-attachments/assets/273b3b7e-273b-464d-acdf-9839ba82ee98)
 
 ## 📂 Status
 
 🔒 Internal prototype – not publicly released.  
 🚧 Code for selected systems (e.g. AI, input, skills) available here.
 
-![Image](https://github.com/user-attachments/assets/d5519af8-aebc-4210-b4b7-089e650576c7)
+
