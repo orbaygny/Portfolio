@@ -45,8 +45,8 @@ Precision combat prototype built for Steam.
 ## 🧰 Tools & Tech
 - Unity 3D (URP)  
 - C#, Git, ScriptableObjects, FSM, Behavior Trees  
-- Unity Profiler, Addressables, Custom Tools  
-- OOP, SOLID, Clean Architecture  
+- Unity Profiler, Addressables, Custom Tools, ScriptableObjects, Unity Input System, Animation, DOTween
+- OOP, SOLID, Clean Architecture, Inheritance, Abstraction, Dependency injection 
 
 ---
 
