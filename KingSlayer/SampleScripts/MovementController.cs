@@ -41,7 +41,7 @@ namespace KingSlayer.Controllers
             float startTime = Time.time;
             var lookDirection = dashDirection;
             lookDirection.y = transform.position.y;
-            var _dash = dashVector * 4.5f;
+            var _dash = dashVector * dashPower;
 
             while (Time.time < startTime+dashTime) 
             {
@@ -53,30 +53,7 @@ namespace KingSlayer.Controllers
             canDash = true;
             playerCtrl.DashMatChange(false);
         }
-    /// <summary>
-    /// Performs a roll action, similar to dash but slower.
-    /// </summary>    /// <summary>
-    /// Performs a roll action, similar to dash but slower.
-    /// </summary>
-        public IEnumerator Roll(float dashTime)
-        {
-            if (!canDash) yield break;
-            canDash = false;
-            animator.SetBool("Roll", true);
-            float startTime = Time.time;
-            var lookDirection = dashDirection;
-            lookDirection.y = transform.position.y;
-            var _dash = dashVector * 1.5f;
 
-            while (Time.time < startTime + dashTime )
-            {
-                transform.rotation = Quaternion.LookRotation(lookDirection);
-                charCtrl.SimpleMove(_dash);
-                yield return null;
-            }
-            animator.SetBool("Roll", false);
-            canDash = true;
-        }
     /// <summary>
     /// Updates animation parameters based on movement direction and mouse position.
     /// </summary>
@@ -95,7 +72,7 @@ namespace KingSlayer.Controllers
                 var fixedAngle = AngleCalculate(angle);
             
                 var _z = Mathf.Cos(fixedAngle);
-               var  _x = Mathf.Sign(inputCtrl.CurretMovement.x) *  Mathf.Sin(fixedAngle);
+                var  _x = Mathf.Sign(inputCtrl.CurretMovement.x) *  Mathf.Sin(fixedAngle);
 
 
                 if (transform.forward.z < 0)
