@@ -2,6 +2,8 @@
 
 A fast-paced action game where both the player and enemies die in a single hit. Precision, timing, and clean architecture are key.
 
+📂 `/SampleScripts/` – Selected code samples from key gameplay systems (AI, Combat, Skills)
+
 ## 🧠 Features
 
 - FSM-based Enemy AI with Unity Animator integration
