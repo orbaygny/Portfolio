@@ -6,7 +6,7 @@ namespace KingSlayer.Controllers
     // Variablles
      
      /// <summary>
-    /// This part only call when scene is loading
+    /// Constructor
     /// </summary>
         public MovementController(PlayerController playerCtrl,CharacterController charCtrl, PlayeInputController inputCtrl,SkillController skillCtrl, Transform transform, float speed,Animator animator)
         {
