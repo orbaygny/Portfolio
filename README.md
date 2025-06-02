@@ -4,6 +4,8 @@ Unity game developer with 4+ years of experience building responsive gameplay sy
 Over 10 published mobile games – passionate about technical architecture, game feel, and smart systems.
 
 ---
+🗂️ This repo contains individual folders for selected projects with code samples and explanations.
+---
 
 ## 🕹️ Projects
 
