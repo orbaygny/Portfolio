@@ -31,7 +31,7 @@ A fast-paced action game where both the player and enemies die in a single hit. 
 ###  Ragdoll
 ![Image](https://github.com/user-attachments/assets/61db7110-2c07-4c13-9ad9-be6202cf610f)
 ###  AI Behaviour
-![Image](https://github.com/user-attachments/assets/61db7110-2c07-4c13-9ad9-be6202cf610f)
+![Image](https://github.com/user-attachments/assets/bb5b0c4c-8fb6-4e25-9b25-176f7facb513)
 ## 📂 Status
 🔒 Internal prototype – not publicly released.  
 🚧 Code for selected systems (e.g. AI, input, skills) available here.
