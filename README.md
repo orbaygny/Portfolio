@@ -26,7 +26,7 @@ A fast-paced action game where both the player and enemies die in a single hit. 
 ## 🎥 Preview
 
 *Video demo coming soon*  
-(ya da varsa bir YouTube linki buraya)
+
 
 ## 📂 Status
 
