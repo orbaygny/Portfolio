@@ -1,33 +1,31 @@
-# King Slayer 🗡️ (Unreleased Steam Project)
+# Human Gun (Sample Mobile Project)
 
-A fast-paced action game where both the player and enemies die in a single hit. Precision, timing, and clean architecture are key.
+A runner mobile game with a catch. Catch is of course guns made with the StickMans
 
-📂 `/SampleScripts/` – Selected code samples from key gameplay systems (AI, Combat, Skills)
+📂 `/SampleScripts/` – Selected code samples from key gameplay systems
 
 ## 🧠 Features
 
-- FSM-based Enemy AI with Unity Animator integration
-- Group alert and vision-based detection mechanics
-- Responsive melee combat system with ragdoll, camera shake, and hit feedback
+- Object pool with dictionary for increase optimization
+- All gun related animations made inside Unity
+- Satisfiying gameplay with effects and animations
 - Skill system with unlocks, cooldowns, and upgrade paths
-- Dual input support: keyboard/mouse + controller
 - Scalable and readable architecture using:
   - Interfaces
   - Events
-  - ScriptableObjects
 
 ## 🛠️ Technologies
 
 - Unity (URP)
 - C#
-- Unity Animator FSM
-- Unity Input System
-- ScriptableObjects
+- Unity Animation
+- Singelton
+- Object Pooling
 - OOP + SOLID
 
 ## 🎥 Preview
 ###  Movement
-![Image](https://github.com/user-attachments/assets/5fa51cfb-eca9-4e70-8672-3454dc604813)
+![Image](https://github.com/user-attachments/assets/7d2471c6-845d-4039-8811-0888cfb393fd)
 ###  Ragdoll
 ![Image](https://github.com/user-attachments/assets/61db7110-2c07-4c13-9ad9-be6202cf610f)
 ###  AI Behaviour
