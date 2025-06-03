@@ -1,5 +1,5 @@
   // Base class for implement singleton.
-    public class Singelton<T> : MonoBehaviour
+    public class Singleton<T> : MonoBehaviour
         where T : Component
     {
         private static T instance;
