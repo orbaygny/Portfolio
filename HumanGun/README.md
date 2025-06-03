@@ -13,13 +13,13 @@ A runner mobile game with a catch. Catch is of course guns made with the StickMa
 - Scalable and readable architecture using:
   - Interfaces
   - Events
+  - Singelton
 
 ## 🛠️ Technologies
 
 - Unity (URP)
 - C#
 - Unity Animation
-- Singelton
 - Object Pooling
 - OOP + SOLID
 
