@@ -25,7 +25,7 @@ A runner mobile game with a catch. Catch is of course guns made with the StickMa
 
 ## 🎥 Preview
 ###  Movement
-![Image](https://github.com/user-attachments/assets/7d2471c6-845d-4039-8811-0888cfb393fd)
+![Image](https://github.com/user-attachments/assets/3dedcb33-bf43-4893-b306-de5593d4e2ed)
 ###  Ragdoll
 ![Image](https://github.com/user-attachments/assets/61db7110-2c07-4c13-9ad9-be6202cf610f)
 ###  AI Behaviour
