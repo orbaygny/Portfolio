@@ -10,8 +10,8 @@ A fast-paced mobile runner game where your "gun" is made of stickmen. Catch new 
 
 - Object pooling system using dictionary-based management for optimized performance  
 - Gun-related animations fully created within Unity's Animator  
-- Satisfying gameplay with dynamic VFX and screen feedback  
-- Skill system featuring unlockable abilities, cooldowns, and upgrades  
+- Satisfying gameplay with dynamic VFX and screen feedback
+
 - Modular architecture using:
   - Interfaces
   - Events
