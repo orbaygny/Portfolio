@@ -32,7 +32,7 @@ Rogue-like puzzle game with physics-based placement and skill cards.
 ### 🔹 [King Slayer (Unreleased)](https://github.com/orbaygny/Portfolio/tree/main/KingSlayer)  
 📂 `/KingsSlayer/` – Go to this folder for selected code samples and GIFs
 
-**Role:** Gameplay Programmer  / Team Lead 
+**Role:** Gameplay Programmer  / Team Lead     
 Precision combat prototype built for Steam.  
 - FSM-based enemy AI and group alert logic  
 - Fluid melee combat with ragdoll, camera shake, and feedback  
