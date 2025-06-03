@@ -45,7 +45,7 @@ Precision combat prototype built for Steam.
 ### 🔹 [HumanGun (Mobile Sample)](https://github.com/orbaygny/Portfolio/tree/main/HumanGun)
 📂 `/HumanGun/` – Go to this folder for selected code samples and GIFs
 
-**Role:** Game Developer
+**Role:** Game Developer  
 A fast-paced mobile runner game where your "gun" is made of stickmen.
 - Object pooling system using dictionary-based management for optimized performance 
 - Gun-related animations fully created within Unity's Animator
