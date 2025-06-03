@@ -24,16 +24,9 @@ A runner mobile game with a catch. Catch is of course guns made with the StickMa
 - OOP + SOLID
 
 ## 🎥 Preview
-###  Movement
+###  Gun Types
 ![Image](https://github.com/user-attachments/assets/3dedcb33-bf43-4893-b306-de5593d4e2ed)
-###  Ragdoll
+###  GamePlay
 ![Image](https://github.com/user-attachments/assets/61db7110-2c07-4c13-9ad9-be6202cf610f)
-###  AI Behaviour
-![Image](https://github.com/user-attachments/assets/bb5b0c4c-8fb6-4e25-9b25-176f7facb513)
-###  FSM for AI Behaviour
-![Image](https://github.com/user-attachments/assets/5288dc5c-e2dc-4ba4-a2b3-221454ff6d77)
-## 📂 Status
-🔒 Internal prototype – not publicly released.  
-🚧 Code for selected systems (e.g. AI, input, skills) available here.
 
 
