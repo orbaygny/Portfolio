@@ -27,6 +27,6 @@ A runner mobile game with a catch. Catch is of course guns made with the StickMa
 ###  Gun Types
 ![Image](https://github.com/user-attachments/assets/3dedcb33-bf43-4893-b306-de5593d4e2ed)
 ###  GamePlay
-![Image](https://github.com/user-attachments/assets/61db7110-2c07-4c13-9ad9-be6202cf610f)
+![Image](https://github.com/user-attachments/assets/70cae4bb-35ad-4cb5-91d3-0f44fbc0826e)
 
 
