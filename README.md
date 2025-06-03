@@ -42,6 +42,19 @@ Precision combat prototype built for Steam.
 
 ---
 
+### 🔹 [HumanGun (Mobile Sample)](https://github.com/orbaygny/Portfolio/tree/main/KingSlayer)](https://github.com/orbaygny/Portfolio/tree/main/HumanGun)  
+📂 `/KingsSlayer/` – Go to this folder for selected code samples and GIFs
+
+**Role:** Game Developer
+Precision combat prototype built for Steam.  
+- FSM-based enemy AI and group alert logic  
+- Fluid melee combat with ragdoll, camera shake, and feedback  
+- Modular skill system and dual input support (controller + keyboard)  
+🛠️ Unity, Animator FSM, Input System, ScriptableObjects, Events, OOP
+
+
+---
+
 ## 🧰 Tools & Tech
 - Unity 3D (URP)  
 - C#, Git, ScriptableObjects, FSM, Behavior Trees  
