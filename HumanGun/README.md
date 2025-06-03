@@ -1,32 +1,41 @@
-# Human Gun (Sample Mobile Project)
+# Human Gun – Sample Mobile Project
 
-A runner mobile game with a catch. Catch is of course guns made with the StickMans
+A fast-paced mobile runner game where your "gun" is made of stickmen. Catch new parts, upgrade your firepower, and blast through obstacles.
 
 📂 `/SampleScripts/` – Selected code samples from key gameplay systems
 
+---
+
 ## 🧠 Features
 
-- Object pool with dictionary for increase optimization
-- All gun related animations made inside Unity
-- Satisfiying gameplay with effects and animations
-- Skill system with unlocks, cooldowns, and upgrade paths
-- Scalable and readable architecture using:
+- Object pooling system using dictionary-based management for optimized performance  
+- Gun-related animations fully created within Unity's Animator  
+- Satisfying gameplay with dynamic VFX and screen feedback  
+- Skill system featuring unlockable abilities, cooldowns, and upgrades  
+- Modular architecture using:
   - Interfaces
   - Events
-  - Singelton
+  - Singleton pattern
+
+---
 
 ## 🛠️ Technologies
 
-- Unity (URP)
-- C#
-- Unity Animation
-- Object Pooling
-- OOP + SOLID
+- Unity (URP)  
+- C#  
+- Unity Animation System  
+- Object Pooling  
+- OOP & SOLID principles  
+
+---
 
 ## 🎥 Preview
-###  Gun Types
-![Image](https://github.com/user-attachments/assets/3dedcb33-bf43-4893-b306-de5593d4e2ed)
-###  GamePlay
-![Image](https://github.com/user-attachments/assets/70cae4bb-35ad-4cb5-91d3-0f44fbc0826e)
 
+### 🔫 Gun Variations  
+![Gun Preview](https://github.com/user-attachments/assets/3dedcb33-bf43-4893-b306-de5593d4e2ed)
+
+### 🕹️ Gameplay  
+![Gameplay Preview](https://github.com/user-attachments/assets/70cae4bb-35ad-4cb5-91d3-0f44fbc0826e)
+
+---
 
