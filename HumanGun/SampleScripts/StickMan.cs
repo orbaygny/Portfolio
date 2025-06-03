@@ -1,49 +1,62 @@
+/// <summary>
+/// StickMan character that reacts to player-triggered events such as collecting, color change, and removal.
+/// Handles animations, parenting, and object pooling logic.
+/// </summary>
 public class StickMan : MonoBehaviour, ITriggerByPlayer
 {
-      // Awake and variables here...
+    // Assume these are assigned elsewhere
+    private Animator animator;
+    private Collider _col;
+    private Renderer _renderer;
+    private Material[] materials;
 
+    private Transform target;
+
+    /// <summary>
+    /// Called when the player interacts with this stickman (e.g., collecting it).
+    /// </summary>
     public void OnPlayerTrigger(int id)
     {
-       
         if (id != gameObject.GetInstanceID()) return;
-       
+
         if (StickContainer.IsContains(gameObject))
         {
-            animator.SetTrigger("next");
+            animator.SetTrigger("next"); // Play animation for already-collected
         }
         else
         {
             _col.enabled = false;
+
+            // Move stickman to the player's collection root
             target = GameObject.FindGameObjectWithTag("StickMParent").transform;
             transform.parent = target;
             transform.localPosition = Vector3.zero;
-            var tmp = StickContainer.ListCount() + 1;
-            animator.SetTrigger(tmp.ToString());
+
+            int triggerIndex = StickContainer.ListCount() + 1;
+            animator.SetTrigger(triggerIndex.ToString());
         }
     }
 
-    public void OnColorChange(int id,int colorId)
+    /// <summary>
+    /// Changes the material color of the stickman based on provided color ID.
+    /// </summary>
+    public void OnColorChange(int id, int colorId)
     {
         if (id != gameObject.GetInstanceID()) return;
         _renderer.material = materials[colorId];
     }
 
+    /// <summary>
+    /// Handles stickman removal — detaches from parent, jumps, and returns to pool if available.
+    /// </summary>
     public void OnRemovedFromList(int id)
     {
-        if(id != gameObject.GetInstanceID()) return;
-       
+        if (id != gameObject.GetInstanceID()) return;
+
         transform.parent = null;
-        var tmp = transform.position;
-        tmp.y = -3;
-        tmp.x += Random.Range(-2,+3);
-        transform.DOJump(tmp , 2, 1, 1);
 
-        if (ObjectPool.Instance.poolDictionary["StickM"].Contains(gameObject))
-        {
-            transform.parent = ObjectPool.Instance.transform.Find("StickMPool");
-        }
+        Vector3 jumpTarget = transform.position;
+        jumpTarget.y = -3;
+        jumpTarget.x += Random.Range(-2, +3);
 
-        
-    }
-      // Rest of script
-}
+        transform.D
