@@ -42,7 +42,7 @@ Precision combat prototype built for Steam.
 
 ---
 
-### 🔹 [HumanGun (Mobile Sample)](https://github.com/orbaygny/Portfolio/tree/main/KingSlayer)](https://github.com/orbaygny/Portfolio/tree/main/HumanGun)  
+### 🔹 [HumanGun (Mobile Sample)](https://github.com/orbaygny/Portfolio/tree/main/HumanGun)
 📂 `/KingsSlayer/` – Go to this folder for selected code samples and GIFs
 
 **Role:** Game Developer
