@@ -2,7 +2,7 @@
 
 A fast-paced action game where both the player and enemies die in a single hit. Precision, timing, and clean architecture are key.
 
-📂 `/Scripts/` – All pre alpha prototype codes can be found
+📂 `/SampleScripts/` – Sample pre alpha prototype codes can be found
 
 ## 🧠 Features
 
