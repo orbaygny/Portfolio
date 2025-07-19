@@ -2,7 +2,7 @@
 
 A fast-paced mobile runner game where your "gun" is made of stickmen. Catch new parts, upgrade your firepower, and blast through obstacles.
 
-📂 `/SampleScripts/` – Selected code samples from key gameplay systems
+📂 `/Scripts/` – All game code can be find
 
 ---
 
